@@ -2,16 +2,15 @@
 
 
 
-/*
-let operacion= prompt("Escoja una operacion: suma, resta, multiplicacion, division")// la variable que se evalua
+
+let operacion= prompt("Escoja una operacion: suma, resta, multiplicacion, division")
 let num1=parseFloat(prompt("Ingrese un numero"))
 let num2=parseFloat(prompt("Ingrese el segundo numero"))
-//parseFloat -parseIn: metodo que me permite modificar la tipologia de un dato
-//convirtiendolos a enteros o decimales
+
 switch (operacion) {
     case "suma":
     document.write ("<br> El resultado de la suma es: " + (num1+num2));
-    break;// se rompe la ejecucion del bloque de codigo y no sigue evaluando mas casos
+    break;
 
     case "resta":
     document.write ("<br> El resultado de la resta es: " + (num1-num2))
@@ -24,15 +23,35 @@ switch (operacion) {
     case "division":
         document.write ("<br> El resultado de la division es: " + (num1/num2))
     break;
-    default: // si ninguno de los casos se cumple
+    default:
         document.write ("<br>Esta operacion no existe")
         break;
 
 }
-*/
+
+/*
+
+let num1= parseFloat(getElementById(numero1))
+let num2= parseFloat(getElementById(numero2))
+
+
+let sumaOperacion= (getElementById (suma));
+document.write ((num1+num2));
+
+let restaOperacion= (getElementById (resta));
+document.write ((num1-num2));
+
+let multiplicacionOperacion= (getElementById (multiplicacion));
+document.write ((num1*num2));
+
+let divisionOperacion= (getElementById (division));
+document.write ((num1/num2));
+
+
 
 var padre=document.getElementById("padre");
 padre.addEventListener("mouseover",(e)=>{
     console.log(e.target.textContent)
     e.target.style.background="orange"
 })
+*/
